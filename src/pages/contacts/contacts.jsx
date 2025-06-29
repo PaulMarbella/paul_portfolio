@@ -35,7 +35,7 @@ import { useRef } from "react"
                         <h3>Feel free to <span className="span-title">Contact</span> me with any inquiries and questions</h3>
                         <h3>I’d like to hear from you!</h3>
                     </div>
-                    <div className="contact-form col-6">
+                    <div className="contact-form col-lg-6 col-md-8 col-sm-12">
                         <form method="POST" className="form" ref={formRef} onSubmit={sendEmail}>
                         <div className="form-group mb-4">
                             <label htmlFor="name">Name:</label>
