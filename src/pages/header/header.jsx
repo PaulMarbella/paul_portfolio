@@ -64,7 +64,7 @@ function Header() {
                     <li className="nav-item"><a className={`nav-links ${activeSection === "contacts" ? "active" : ""}`} href="#contacts">Contact</a></li>
                 </ul>
             </div>
-            <div className="d-flex align-items-center order-1 justify-content-center gap-2">
+            <div className="d-flex align-items-center justify-content-center gap-2">
             <FaEnvelope className="icon-email fs-1 text-center" />
             <ContactDropdown />
             </div>

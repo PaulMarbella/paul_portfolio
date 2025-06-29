@@ -15,7 +15,7 @@ function Hero(){
                 </div>
                 <div className="pic-container">
                     <div data-aos="fade-left">
-                        <img src={`${import.meta.env.BASE_URL}assets/portfolio-pic.png`} className="img-fluid hero-pic border border-4 border-dark rounded shadow " />
+                        <img src={`${import.meta.env.BASE_URL}assets/portfolio-pic.png`} className=" hero-pic border border-4 border-dark rounded shadow " />
                     </div>
                 </div>
                 

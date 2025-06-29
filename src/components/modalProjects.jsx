@@ -15,7 +15,7 @@ function ModalProject({ projects }){
                                 className="card-img-top"
                                 alt={projects.title}
                                 />
-                        <div className="d-flex gap-5 my-4 pic-projects">
+                       {(projects.image2 && projects.image3) && (<div className="d-flex gap-5 my-4 pic-projects">
                                  <img
                                 src={projects.image2}
                                 className="card-img-top"
@@ -26,7 +26,7 @@ function ModalProject({ projects }){
                                 className="card-img-top"
                                 alt={projects.title}
                                 />
-                        </div>
+                        </div>)}
                         <p className="mt-3">{projects.description}</p>
                         <p>{projects.information}</p>
                     </div>
