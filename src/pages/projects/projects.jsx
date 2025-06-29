@@ -19,44 +19,44 @@ const projectData = [
       description: 'SAGIP is a prototype that focuses on addressing the gaps in real-time environmental monitoring in Paranaque City ',
       information:"The SAGIP Monitoring System provides a visually interactive and user-friendly experience which is powered by Raspberry Pi and Esp32 for sensor readings, optimized for accessibility and usability across various devices and user roles. Designed with emergency response chat system and ArcGIS API for mapping, the system combines modern frontend frameworks with advanced mapping capabilities. It uses php as backend that combines with phpMyAdmin as our database that stores all the weather data within our readings of our sensors. It is primary connected to the apache server and database of the Raspberry Pi." ,
       link: 'sagip.online',
-      image: '/src/assets/Sagip-project.gif',
-      image2: '/src/assets/Sagip-project2.jpg',
-      image3: '/src/assets/Sagip-project3.jpg'
+      image: `${import.meta.env.BASE_URL}assets/sagip-project.gif`,
+      image2: `${import.meta.env.BASE_URL}assets/sagip-project2.jpg`,
+      image3: `${import.meta.env.BASE_URL}assets/sagip-project3.jpg`
     },
     {
       title: 'Task Tracker',
       description: 'Task Tracker is a todo list application which it provides the status of your work/task wether is in progess, queue or done.',
-      image: '/src/assets/task-tracker.png',
+      image: `${import.meta.env.BASE_URL}assets/task-tracker.png`,
     },
     {
       title: 'Comming Soon',
       description: '-',
-      image: '/src/assets/no-display.png',
+      image: `${import.meta.env.BASE_URL}assets/no-display.png`,
     },
     {
       title: 'Comming Soon',
       description: '-',
-      image: '/src/assets/no-display.png',
+      image: `${import.meta.env.BASE_URL}assets/no-display.png`,
     },
     {
       title: 'Comming Soon',
       description: '-',
-      image: '/src/assets/no-display.png',
+      image: `${import.meta.env.BASE_URL}assets/no-display.png`,
     },
     {
       title: 'Comming Soon',
       description: '-',
-      image: '/src/assets/no-display.png',
+      image: `${import.meta.env.BASE_URL}assets/no-display.png`,
     },
      {
       title: 'Comming Soon',
       description: '-',
-      image: '/src/assets/no-display.png',
+      image: `${import.meta.env.BASE_URL}assets/no-display.png`,
     },
      {
       title: 'Comming Soon',
       description: '-',
-      image: '/src/assets/no-display.png',
+      image: `${import.meta.env.BASE_URL}assets/no-display.png`,
     },
   ];
 
