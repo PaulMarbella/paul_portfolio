@@ -67,7 +67,7 @@ const projectData = [
 
 
     return(
-        <section className=" container projects" id="projects">
+        <section className="container projects" id="projects">
             <div>
                 <h1 className="text-center">My <span className="span-title">Projects</span></h1>
             </div>
