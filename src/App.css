@@ -133,7 +133,7 @@ body{
 
 /* hero */
 .hero{
-  margin: 3em 0 15em 0;
+  margin: 4em 0 16em 0;
   color: var(--bg-color);
 }
 
@@ -300,7 +300,6 @@ body{
   flex-wrap: wrap;
 }
 .skills .tags {
-
   white-space: nowrap;
 }
 @media (max-width:500px) {
@@ -399,7 +398,7 @@ body{
   }
 
   .card {
-    width: 90%;
+    width: 100%;
     margin: 1rem auto;
   }
 }
