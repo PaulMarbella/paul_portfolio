@@ -14,7 +14,6 @@ function Skills(){
                     </div>
                     <div className="d-flex gap-3 mt-3">
                         <div className="tags">Javascript</div>
-                        <div className="tags">HTML/CSS</div>
                         <div className="tags">PHP</div>
                         <div className="tags">C++</div>
                         <div className="tags">C#</div>
