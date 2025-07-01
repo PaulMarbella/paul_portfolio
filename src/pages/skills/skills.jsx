@@ -44,6 +44,7 @@ function Skills(){
                         <div className="tags">Bootstrap</div>
                         <div className="tags">MERN</div>
                         <div className="tags">Arduino</div>
+                        <div className="tags">Chart.js</div>
                     </div>
                 </div>
             </div>
