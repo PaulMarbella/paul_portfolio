@@ -7,7 +7,8 @@
   font-family: "Cormorant Garamond", serif;
 }
 
-html {
+html,
+body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -82,7 +83,6 @@ body {
   background-color: var(--bg-color);
   width: 100%;
 }
-
 
 /* HERO SECTION */
 .hero {
@@ -315,19 +315,22 @@ body {
     margin: 0 0 17em 0;
   }
   .hero-pic {
-  width: 250px;
-}
+    width: 250px;
+  }
   .hero h1,
   .name {
     font-size: 40px;
   }
   .hero p {
-  font-size: 15px;
-  margin: 25px 0;
-}
-.hero h3{
-  font-size: 30px;
-}
+    font-size: 15px;
+    margin: 25px 0;
+  }
+  .hero h3 {
+    font-size: 30px;
+  }
+  .contact-me {
+    font-size: 12px;
+  }
   .skills h1 {
     font-size: 1.5rem;
   }
