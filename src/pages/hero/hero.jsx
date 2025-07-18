@@ -33,7 +33,7 @@ function Hero() {
         <div data-aos="fade-left">
           <img
             src={`${import.meta.env.BASE_URL}assets/portfolio-pic.png`}
-            className=" hero-pic border border-4 border-dark rounded shadow "
+            className=" hero-pic "
           />
         </div>
       </div>

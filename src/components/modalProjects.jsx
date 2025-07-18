@@ -36,7 +36,7 @@ function ModalProject({ projects }) {
               <div className="col-md-6">
                 {projects.desktop && (
                   <img
-                    src={projects.desktop[3]}
+                    src={projects.desktop[2]}
                     className="card-img-desktop mb-3"
                     alt={projects.title}
                   />
